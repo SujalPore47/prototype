@@ -1,0 +1,107 @@
+{
+    "data": {
+        "transactionId": "null",
+        "transactionType": "null",
+        "hospital": {
+            "name": "City Care Hospital",
+            "registration_number": "null",
+            "address": "123, Main Road, Delhi, 110001",
+            "city": "Delhi",
+            "state": "null",
+            "pin": "110001",
+            "email": "info@citycarehospital.com",
+            "phone": "+91 11 2345 6789"
+        },
+        "doctor": {
+            "name": "Dr: Priya Mehta",
+            "registration_number": "MCI-1234567",
+            "department": "Nephrology",
+            "designation": "Consultant Nephrologist",
+            "qualification": "null",
+            "email": "null",
+            "phone": "null"
+        },
+        "patient": {
+            "name": "Vikram Singh",
+            "dob": "March 15, 1964",
+            "address": "45, Green Park Colony, Delhi, 110016",
+            "city": "Delhi",
+            "state": "null",
+            "pin": "110016",
+            "tpa_id": "null",
+            "employee_id": "null",
+            "company_name": "ABC Technologies Pvt: Ltd.",
+            "pan_card": "ABCPS1234E",
+            "aadhar_card": "1234-5678-9012",
+            "phone": "null",
+            "email": "null"
+        },
+        "claim": [
+            {
+                "doa": "October 10,2024",
+                "dod": "null",
+                "total_claimed_amount": "69,900"
+            },
+            {
+                "invoice_date": "null",
+                "bill_group": "null",
+                "bill_category": "null",
+                "amount": "null",
+                "date": "null",
+                "bill_number": "null",
+                "discount": "null",
+                "quantity": "null",
+                "remarks": "null"
+            },
+            {
+                "invoice_date": "null",
+                "bill_group": "null",
+                "bill_category": "null",
+                "amount": "null",
+                "date": "null",
+                "bill_number": "null",
+                "discount": "null",
+                "quantity": "null",
+                "remarks": "null"
+            }
+        ],
+        "medicalDetails": {
+            "dischargeType": "null",
+            "patientAddress": {
+                "address": "null",
+                "city": "null",
+                "state": "null",
+                "pinCode": "null"
+            },
+            "diagnosis": [
+                {
+                    "name": "ChronicKidney Disea se ( C KD ) , Stage 5 (End- Stage RenalDisea s e-ESRD )",
+                    "icd": "null"
+                },
+                {
+                    "name": "Ayperten sio n",
+                    "icd": "null"
+                }
+            ],
+            "symptoms": [
+                "Severe fatigue",
+                "swelling in the legs",
+                "shortness of breath"
+            ],
+            "treatment_taken": "Amlodipine 5 mg daily (for blood pressure management)\nFurosemide 40 mg twice daily (to manage fluid overload)\nEpoetin alfa 4000 units weekly (for anemia management)\nCalcium carbonate with meals (to manage phosphate levels)"
+        },
+        "room_invoice": [
+            {
+                "room_type": "Private",
+                "room_category": "Deluxe",
+                "start_date": "null",
+                "end_date": "null",
+                "rate": "4000",
+                "quantity": "10",
+                "discount": "1000"
+            }
+        ]
+    },
+    "message": "Success",
+    "success": true
+}
